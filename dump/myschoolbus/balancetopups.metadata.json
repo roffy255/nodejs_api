@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":1,"key":{"_id":1},"name":"_id_","ns":"myschoolbus.balancetopups"},{"v":1,"unique":true,"key":{"topup_sn":1},"name":"topup_sn_1","ns":"myschoolbus.balancetopups","sparse":true,"background":true}]}

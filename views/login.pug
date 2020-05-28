@@ -1,0 +1,21 @@
+html
+    head
+        title hamro
+    
+    body
+        h2 welcome to hamro adventures and tours
+        span please login to proceed
+        br
+        form(method="POST")           
+            input(type="text",placeholder="Username",name="username")
+            br
+            br
+            input(type="password",placeholder="Password",name="password")
+            br
+            br
+            
+            
+            input(type="submit",value="login")
+
+        span Dont't have an account? register 
+            a(href="/auth/register") here
